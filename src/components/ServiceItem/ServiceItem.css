@@ -1,0 +1,38 @@
+.container {
+    min-height: 540px;
+    height: 100%;
+    width: 400px;
+    background-color: royalblue;
+    padding: 30px 15px;
+    border-radius: 10px;
+}
+
+.item-image {
+    padding-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.item-image img{
+    border-radius: 8px;
+    transition: .2s;
+}
+
+.item-image img:hover {
+    transform: scale(105%);
+}
+
+.content-heading {
+    color: black;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 5px;
+    padding: 0;
+}
+
+.content-text {
+    font-size: 10px;
+    text-align: left;
+    margin-left: 5px;
+}
+

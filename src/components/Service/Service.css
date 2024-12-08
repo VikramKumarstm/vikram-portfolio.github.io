@@ -1,0 +1,47 @@
+.service {
+    background-color: #191f36;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.sub-service {
+    color: #fff;
+    width: 80%;
+    margin-top: 80px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-text h1 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.service-text h1::after {
+    content: '';
+    width: 7.5%;
+    height: 2px;
+    background-color: orangered;
+    border-radius: 2px;
+    display: block;
+}
+
+.embed {
+    color: #ccc;
+}
+
+.para {
+    font-size: 18px;
+}
+
+.service-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 5px;
+}
